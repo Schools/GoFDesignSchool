@@ -1,0 +1,20 @@
+Decide on Inheritance or Delegation
+Encapsulation and Indirection
+
+How many ways to create object?
+Objects are created only via Constructors (new calls constuctor). It depends on the different types of consturtor and super() method.
+
+
+• Constructors in Java are inflexible
+1. Can't return a subtype of the class they belong to
+2. Always return a fresh new object, never re-use one
+• Factories
+– Factory method
+– Factory object
+– Prototype
+
+• Sharing
+– Singleton
+– Interning
+– Flyweight
+– Dependency injection
